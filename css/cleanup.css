@@ -1,1 +1,36 @@
 /* write your override styles here */
+/* Hide tag-1 using class selector inside #wall */
+#wall .tag-1 {
+  display: none;
+}
+
+/* Hide tag-2 using ID selector inside #wall */
+#wall #tag-2 {
+  display: none;
+}
+
+/* Hide tag-3 using ID selector with combo class */
+#wall #tag-3.wicked.slick {
+  display: none;
+}
+
+/* Hide tag-4 inside .parent */
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/* Hide tag-5 inside .parent with slick class */
+#wall .parent #tag-5.slick {
+  display: none;
+}
+
+/* Hide tag-6 nested inside two divs */
+#wall .parent div div #tag-6 {
+  display: none;
+}
+
+/* Hide tag-7 nested deeply inside .parent */
+#wall .parent div div#tag-7.slick {
+  display: none;
+}
+
